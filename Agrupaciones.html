@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Natalia Canudas">
+    <title>Agrupaciones</title>
+    <link rel="stylesheet" href="Estilo.css">
+  </head>
+  <body>
+    <iframe src="Indice.html" height="500" title="Indice"></iframe>
+    <header>
+      <h1>Agrupaciones</h1>
+    </header>
+    <article>
+      <section>
+        <h2>Párrafo &ltp&gt</h2>
+        <p>Representa un párrafo.</p>
+        <code><p>&ltp&gtEsto es un párrafo.&lt/p&gt<br>&ltp&gtEsto es otro párrafo.&lt/p&gt</p></code>
+      </section>
+      <section>
+        <h2>Texto preformateado &ltpre&gt</h2>
+        <p>El texto se representa tal y como se ha escrito, a diferencia del párrafo,
+        que obvia cosas como saltos de página y tabulaciones.</p>
+        <code><pre>
+          &ltpre&gt
+                Este texto se verá
+            exactamente así
+                      cuando aparezca en el navegador.
+          &lt/pre&gt
+        </pre></code>
+      </section>
+      <section>
+        <h2>Listas</h2>
+        <p>Hay 3 tipos de listas: listas ordenadas, listas desordenadas y listas
+        de definiciones.</p>
+        <h3>Listas ordenadas &ltol&gt</h3>
+        <p>Cada elemento de la lista usará el elemento &ltli&gt.<br>El elemento &ltol&gt
+        puede tener varios atributos: </p>
+        <dl>
+          <dt>Reversed</dt>
+          <dd>Indica que la lista es descendente.</dd>
+          <dt>Start</dt>
+          <dd>Indica el número por el que la lista empieza.</dd>
+          <dt>Type</dt>
+          <dd>Indica el tipo de marcador que se va a usar. En caso de que no aparezca,
+          se usarán números.</dd>
+        </dl>
+        <h3>Listas desordenadas &ltul&gt</h3>
+        <p>Como en las listas ordenadas, cada elemento de la lista usa el elemento &ltli&gt.</p>
+        <h3>Listas de definiciones &ltdl&gt</h3>
+        <p>Se usan para listas en las que cada elemento tiene un nombre y un valor
+        asociado, como definiciones, descripciones, etc. Se usa el elmento &ltdt&gt
+        para definir el término y &ltdd&gt para la descripción.<br>Por ejemplo: </p>
+        <code><pre>
+          &ltdl&gt
+            &ltdt&gt Director
+            &ltdd&gt George Lucas
+            &ltdt&gt Actores
+            &ltdd&gt Mark Hamill
+            &ltdd&gt Harrison Ford
+            &ltdd&gt Carrie Fisher
+          &lt/dl&gt
+        </pre></code>
+        <dl>
+          <dt> Director
+          <dd> George Lucas
+          <dt> Actores
+          <dd> Mark Hamill
+          <dd> Harrison Ford
+          <dd> Carrie Fisher
+        </dl>
+      </section>
+      <section>
+        <h2>Tablas &lttable&gt</h2>
+        <h3>Elementos</h3>
+        <p><dl>
+          <dt>&ltthead&gt</dt>
+          <dd>Encabezado de la tabla.</dd>
+          <dt>&lttbody&gt</dt>
+          <dd>Cuerpo de la tabla.</dd>
+          <dt>&lttfoot&gt</dt>
+          <dd>Sumario de la tabla.</dd>
+          <dt>&ltcaption&gt</dt>
+          <dd>Leyenda de la tabla.</dd>
+          <dt>&lttr&gt</dt>
+          <dd>Añade una fila</dd>
+          <dt>&lttd&gt</dt>
+          <dd>Añade una columna</dd>
+        </dl></p>
+        <p><pre>Tabla
+      Fila
+        Columna
+        Columna
+        ...
+      Fila
+        Columna
+        ...</pre></p>
+        <code><pre>&lttable&gt
+      &lttr&gt Table row
+        &lttd&gt Table data
+        &lttd&gt Table data
+        ...
+      &lttr&gt Table row
+        &lttd&gt Table data
+        ...</pre></code>
+        <h3>Atributos</h3>
+        <dl>
+          <dt>border</dt>
+          <dd>TABLE. Indica el tipo de borde de la tabla. Si no está, la tabla no
+          tendrá borde.</dd>
+          <dt>rowspan</dt>
+          <dd>TD. Expande una columna.</dd>
+          <dt>colspan</dt>
+          <dd>TD. Expande una fila.</dd>
+        </dl>
+      </section>
+      <section>
+        <h2>Otros elementos</h2>
+        <h3>Citas &ltblockquote&gt</h3>
+        <p>Se usa para representar citas de otras fuentes.</p>
+        <h3>Línea horizontal &lthl&gt</h3>
+        <p>Crea una línea horizontal.</p>
+        <h3>&ltdiv&gt</h3>
+        <p>Este elemento se usa como comodín. No tiene ningún significado especial,
+        pero se suele usar para ayudar a dar estilo.</p>
+      </section>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Natalia Canudas">
+    <title>Hiperenlaces</title>
+    <link rel="stylesheet" href="Estilo.css">
+  </head>
+  <body>
+    <iframe src="Indice.html" height="500" title="Indice"></iframe>
+    <header>
+      <h1>Hiperenlaces</h1>
+    </header>
+    <article>
+      <section>
+        <h2>Anchor &lta&gt</h2>
+        <p>Marca el lugar en el que podría haber un enlace. El URL se coloca en
+         el atributo <i>href</i>.</p>
+         <p><code>&ltp&gtEsto es un enlace a &lta href=http://www.google.com&gtGoogle
+         &lt/a&gt&lt/p&gt</code></p>
+      </section>
+      <section>
+        <h2>Hiperenlace interno</h2>
+        <p>Se usan para referenciar partes de la misma página en la que se
+        encuentra dicho enlace.</p>
+        <p><code>&lta href="#seccion3"&gtIr a la sección 3&lt/a&gt</code><br>
+        <code>&ltsection id="seccion3"&gt...&lt/section&gt</code></p>
+      </section>
+      <section>
+        <h2>Tipos de URL</h2>
+        <h3>Absolutos</h3>
+        <p>Son URL completos, que dirigen a otras páginas web.<br>http://www.google.com</p>
+        <h3>Relativos</h3>
+        <dl>
+          <dt>Mismo directorio</dt>
+          <dd>página.html</dd>
+          <dt>Subdirectorio</dt>
+          <dd>Subdirectorio/página.html</dd>
+          <dt>Directorio anterior</dt>
+          <dd>../página.html</dd>
+        </dl>
+      </section>
+    </article>
+  </body>
+</html>

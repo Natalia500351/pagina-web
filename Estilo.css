@@ -1,0 +1,90 @@
+body {
+  background: rgba(109, 99, 209, 0.5);
+  /*background: #716799;*/
+  color: black;
+  font-family: "Arial", sans-serif;
+}
+article {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+section {
+  background: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.indice {
+  font-size: 20px;
+  margin-left: 0%;
+  background: #C2FFDF;
+  padding: 12px;
+}
+h1 {
+  color: purple;
+  font-size: 75px;
+  margin-left: 27%;
+}
+h2 {
+  color: purple;
+  font-size: 40px;
+}
+h3 {
+  color: purple;
+  font-size: 27px;
+}
+h1.ejemplo {
+  color: purple;
+  font-size: 50px;
+  margin-left: 0%;
+}
+.ejemplo {
+  color: purple;
+}
+code {
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+}
+pre {
+  font-size: 18px;
+}
+dt {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+dd {
+  font-size: 18px;
+}
+iframe{
+  float: left;
+  position: fixed;
+  border:none;
+  background: #C2FFDF;
+  border-radius: 10px;
+  background-attachment: fixed;
+}
+img {
+margin-left: 33%;
+}
+table{
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+th {
+  font-weight: bold;
+  text-align: left;
+  background: white;
+  color: purple;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}

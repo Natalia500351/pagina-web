@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Natalia Canudas">
+    <title>Contenido encajado</title>
+    <link rel="stylesheet" href="Estilo.css">
+  </head>
+  <body>
+    <iframe src="Indice.html" height="500" title="Indice"></iframe>
+    <header>
+      <h1>Contenido encajado</h1>
+    </header>
+    <article>
+      <h2>Imágenes</h2>
+      <section>
+        <h3>&ltimg&gt</h3>
+        <p><code>&ltimg src="imagen.jpg width="200" height="100" alt="Una imagen"&gt</code></p>
+        <p>Esta etiqueta tiene varios atributos:</p>
+        <dl>
+          <dt>scr</dt>
+          <dd>Proviene de <i>source</i>. Se usa para colocar el link de la imagen.</dd>
+          <dt>width</dt>
+          <dd>El ancho de la imagen.</dd>
+          <dt>height</dt>
+          <dd>La altura de la imagen.</dd>
+          <dt>alt</dt>
+          <dd>Es en texto que aparecerá en caso de que la imagen no pueda visualizarse.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>Mapa de imagen &ltmap&gt</h3>
+        <p><code>&ltimg usemap="#mapa"&gt<br/>&ltmap name="mapa"&gt<br/><nbsp/>
+        &ltarea shape="default" coords="23, 25, 45, 65" href="ejemplo.html" alt="ejemplo"&gt</code></p>
+        <p>El atributo "shape" puede contener 4 valores: defaul, rect, circle y poly.</p>
+      </section>
+    </article>
+  </body>
+</html>
