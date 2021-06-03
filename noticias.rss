@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+	  <title>Noticias El Pais</title>
+    <description>Noticias del periódico El Pais</description>
+    <link>https://elpais.com/</link>
+		<item>
+			<title>EE UU anuncia aranceles contra España y otros cinco países por la "tasa Google", pero los suspende temporalmente</title>
+			<description>Washington deja en suspenso la aplicación de las tasas comerciales a la espera de un acuerdo multilateral sobre impuestos a las multinacionales en la OCDE y el G-20</description>
+			<link>https://elpais.com/economia/2021-06-02/eeuu-anuncia-aranceles-adicionales-contra-espana-y-otros-cinco-paises-en-respuesta-a-la-adopcion-de-la-tasa-google.html</link>
+		</item>
+    <item>
+      <title>Adiós a Google Fotos con almacenamiento ilimitado: qué cambia, a quién afecta y qué alternativas hay</title>
+      <description>Los usuarios deberán pagar una suscripción si superan los 15GB de memoria ocupada entre el servicio de archivo de imágenes, Drive y el correo Gmail</description>
+      <link>https://elpais.com/tecnologia/2021-06-03/adios-a-google-fotos-con-almacenamiento-ilimitado-que-cambia-a-quien-afecta-y-que-alternativas-hay.html</link>
+    </item>
+    <item>
+      <title>La NASA anuncia dos nuevas misiones de exploración a Venus para 2026</title>
+      <description>Será la primera vez en tres décadas que la agencia espacial visitará el planeta con el objetivo de hallar posibles indicios de vida en su superficie</description>
+      <link>https://elpais.com/ciencia/2021-06-02/la-nasa-anuncia-dos-nuevas-misiones-de-exploracion-a-venus-para-el-2026.html</link>
+    </item>
+	</channel>
+</rss>
